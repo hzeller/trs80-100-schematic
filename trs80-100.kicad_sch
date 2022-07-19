@@ -6595,6 +6595,10 @@
     (uuid fd0555c4-f111-4625-a8b3-e7903438100a)
   )
 
+  (text "x3" (at 193.04 66.04 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0ffbb985-a8dc-43dc-8c96-ae0171750942)
+  )
   (text "Low Battery" (at 191.77 17.78 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2f9d2bd5-c9dd-42aa-a538-1d7704ee1bd3)
@@ -6658,10 +6662,6 @@
   (text "x2" (at 21.59 22.86 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa44bfec-1c6c-45ec-93e9-1676a91ec7b9)
-  )
-  (text "? Missing in\nSchematic" (at 186.69 66.04 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fb24c491-4274-4fbe-a8e2-a4132c2403df)
   )
   (text "x2" (at 19.05 36.83 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -7234,7 +7234,7 @@
   (symbol (lib_id "Device:C") (at 186.69 50.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 165f3167-5a6d-46a3-b593-e27111a02724)
-    (property "Reference" "C81" (id 0) (at 182.88 49.53 90)
+    (property "Reference" "C81" (id 0) (at 185.42 49.53 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n" (id 1) (at 190.5 52.07 90)
@@ -8624,7 +8624,7 @@
   (symbol (lib_id "Device:C") (at 177.8 59.69 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 610ba8e7-71d1-4ade-8e2e-f4d68d6e4ea2)
-    (property "Reference" "C999" (id 0) (at 186.69 60.96 90)
+    (property "Reference" "C104" (id 0) (at 186.69 58.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (id 1) (at 180.34 63.5 90)
@@ -10153,8 +10153,8 @@
     (property "Reference" "T13" (id 0) (at 186.69 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2SC2603(E)" (id 1) (at 180.34 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Value" "2SC2603" (id 1) (at 193.04 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (id 2) (at 179.07 74.295 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
@@ -11428,6 +11428,9 @@
     (path "/928432fb-95c1-46a0-9419-74f6bd3eaf33"
       (reference "C101") (unit 1) (value "10u") (footprint "")
     )
+    (path "/610ba8e7-71d1-4ade-8e2e-f4d68d6e4ea2"
+      (reference "C104") (unit 1) (value "10n") (footprint "")
+    )
     (path "/83e61065-233d-4330-b7a4-41423bd3515a"
       (reference "C107") (unit 1) (value "270p") (footprint "")
     )
@@ -11436,9 +11439,6 @@
     )
     (path "/c9e28231-2b92-4d7f-b473-b23e3cdea6d8"
       (reference "C111") (unit 1) (value "3.3n") (footprint "")
-    )
-    (path "/610ba8e7-71d1-4ade-8e2e-f4d68d6e4ea2"
-      (reference "C999") (unit 1) (value "10n") (footprint "")
     )
     (path "/602e5280-8c4b-44d4-917a-a7ccb81b1695"
       (reference "CN2") (unit 1) (value "A-7224") (footprint "")
@@ -11867,7 +11867,7 @@
       (reference "T11") (unit 1) (value "2SC2603") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/c334d95e-8e5b-4452-8d89-6aeff14a6163"
-      (reference "T13") (unit 1) (value "2SC2603(E)") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "T13") (unit 1) (value "2SC2603") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/75dc4e27-5564-4b18-b662-1d9cc22edfcb"
       (reference "T14") (unit 1) (value "2SC2603(E)") (footprint "Package_TO_SOT_THT:TO-92_Inline")
