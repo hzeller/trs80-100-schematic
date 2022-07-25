@@ -12,6 +12,10 @@ This transcript is based on various scans to minimize read errors
 The format is in KiCAD eeschema format; for convenience, a generated PDF
 has been included in this repository.
 
+<a href="https://github.com/hzeller/trs80-100-schematic/raw/main/trs80-100.pdf">
+<img src="https://github.com/hzeller/trs80-100-schematic/raw/main/img/thumbnail.png">
+</a>
+
 ## Status
 The main-board schematic is complete (the LCD one has not started yet).
 A fine-combed proof-reading and comparison between original and transcript has
@@ -30,7 +34,7 @@ latched to the lower half of the address bus.
 
 A `RDWR` signal and its buffered counterpart `RDWR*` have been introduced.
 In the original schematic, the former was not named but generated to feed
-the enable for the LCD. The `RDWR*` signal existed but was named `Ⓐ* in
+the enable for the LCD. The `RDWR*` signal existed but was named `Ⓐ*` in
 the original schematic which was not a very useful name.
 
 Now, these signals are generated close to the 'bus buffer signal' section, the
@@ -38,7 +42,7 @@ Now, these signals are generated close to the 'bus buffer signal' section, the
 that section of the schematic less crowded). Also the buffere section is
 less crowded by using a block symbol as M20 instead of multiple separate
 buffer symbols (note, the `RESET_OUT` signal has been moved to the right of
-the 80C85 for that).
+the 80C85 symbol for that).
 
 The RAM and ROM chips in the original hand-drawn schematic have been displayed
 in a 'bulk' format, which has been made explicit in the transcript.
@@ -46,7 +50,7 @@ in a 'bulk' format, which has been made explicit in the transcript.
 All component designators are the same and the correct pin-assignments for
 each component have been preserved.
 Only exception: the pinouts of the resistor networks have not been arranged
-yet (but pin numbers are hidden, so it woulnd't make a difference unless a PCB
+yet (but pin numbers are hidden, so it would not make a difference unless a PCB
 is made).
 
 Busses have different colors depending on the meaning
