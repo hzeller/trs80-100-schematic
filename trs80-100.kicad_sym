@@ -3638,7 +3638,7 @@
       )
     )
   )
-  (symbol "FRL-764D05/1AS-T" (in_bom yes) (on_board yes)
+  (symbol "FRL-764D05_1AS-T" (in_bom yes) (on_board yes)
     (property "Reference" "RY" (id 0) (at 8.89 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3660,7 +3660,7 @@
     (property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "FRL-764D05/1AS-T_0_0"
+    (symbol "FRL-764D05_1AS-T_0_0"
       (polyline
         (pts
           (xy 5.08 3.175)
@@ -3672,7 +3672,7 @@
         (fill (type none))
       )
     )
-    (symbol "FRL-764D05/1AS-T_0_1"
+    (symbol "FRL-764D05_1AS-T_0_1"
       (rectangle (start -5.08 2.54) (end 6.35 -2.54)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
@@ -3746,7 +3746,7 @@
         (fill (type none))
       )
     )
-    (symbol "FRL-764D05/1AS-T_1_1"
+    (symbol "FRL-764D05_1AS-T_1_1"
       (pin passive line (at -2.54 5.08 270) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -3765,7 +3765,7 @@
       )
     )
   )
-  (symbol "FRL-764D05/1BS-T" (in_bom yes) (on_board yes)
+  (symbol "FRL-764D05_1BS-T" (in_bom yes) (on_board yes)
     (property "Reference" "RY" (id 0) (at 8.89 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -3787,7 +3787,7 @@
     (property "ki_fp_filters" "Relay*StandexMeder*DIP*LowProfile*" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "FRL-764D05/1BS-T_0_0"
+    (symbol "FRL-764D05_1BS-T_0_0"
       (polyline
         (pts
           (xy 5.08 3.175)
@@ -3799,7 +3799,7 @@
         (fill (type none))
       )
     )
-    (symbol "FRL-764D05/1BS-T_0_1"
+    (symbol "FRL-764D05_1BS-T_0_1"
       (rectangle (start -5.08 2.54) (end 6.35 -2.54)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))
@@ -3873,7 +3873,7 @@
         (fill (type none))
       )
     )
-    (symbol "FRL-764D05/1BS-T_1_1"
+    (symbol "FRL-764D05_1BS-T_1_1"
       (pin passive line (at 5.08 5.08 270) (length 2.54)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
