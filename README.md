@@ -104,3 +104,14 @@ in the original BOM. So for completeness, following designators do *not* exist:
 
 If you see mistakes, please file them in the repositories' issue tracker;
 https://github.com/hzeller/trs80-100-schematic
+
+## Transcript License CC-BY-SA
+
+The original schematic is copyright of the respective owner (probably Kyocera).
+
+This editable transcript in KiCAD format is licensed by me, Henner Zeller,
+under Creative Commons Attribution-ShareAlike CC-BY-SA 4.0 license.
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
