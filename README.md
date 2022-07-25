@@ -77,11 +77,10 @@ as this designator was the only missing and also had the correct 10nF value
 (to be verified on PCB).
 
 The base transistor to T4 is a 10k value with no designator in the schematic.
-This is likely R33. For now using a dummy designator R998.
+This is likely R33, but not confirmed yet.
 
 The resistor discharging C78 via T25 has neither a designator nor value in
-the schematic. This could be R162 with 100 Ohm. For now using a dummy
-designator R999.
+the schematic. This could be R162 with 100 Ohm. To be confirmed.
 
 ### Missing designators
 
