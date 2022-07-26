@@ -21,10 +21,12 @@ has been included in this repository.
 ## Status
 
 The main-board schematic is complete (the LCD one has not started yet).
-A fine-combed proof-reading and comparison between original and transcript has
-yet to be done.
-
+All values in the BOM have been cross-checked with the BOM printed
+service manual and are matching.
 The schematic passes ERC with zero warnings and errors.
+
+A fine-combed proof-reading and comparison between original and transcript
+for all nets being connected correctly has yet to be done.
 
 ## Minimal layout deviation
 
@@ -100,7 +102,6 @@ in the original BOM. So for completeness, following designators do *not* exist:
 
 ## TODO
 
-  * Compare *values* from KiCAD BOM with original BOM.
   * Thorough comb-through to make sure there are no mistakes and
     confirm R33 (Base-resistor for T4?), R162 (reset circuit?) (look at PCB).
   * Fill in details (voltage, tolerance, original part names (many have original
