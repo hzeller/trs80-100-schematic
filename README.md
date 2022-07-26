@@ -19,6 +19,7 @@ has been included in this repository.
 </a>
 
 ## Status
+
 The main-board schematic is complete (the LCD one has not started yet).
 A fine-combed proof-reading and comparison between original and transcript has
 yet to be done.
@@ -26,9 +27,15 @@ yet to be done.
 The schematic passes ERC with zero warnings and errors.
 
 ## Minimal layout deviation
+
 This transcript in KiCAD attempts to preserve the original layout as much
 as possible to easily navigate and compare between the original and the
-transcript. However some parts are slightly rearranged to improve readability.
+transcript. This means as well that some schematic symbols exists in multiple
+different versions for the same chip to accommodate the same pin-sequence found
+in the original schematic which were chosen to simplify the PCB layout (for
+instance, there are versions for 40H244 for M15, M21, M23, and M32).
+
+Some parts are slightly rearranged to improve readability.
 
 Some readability improvements have been done in the address demultiplexing
 section to more easily see the `AD[0..7]` bus being buffered to the AD-bus and
@@ -46,13 +53,13 @@ section is also less crowded by using a block symbol as M20 instead of
 multiple separate buffer symbols (note, the `RESET_OUT` signal has been
 moved to the right of the 80C85 symbol for that).
 
-The RAM and ROM chips in the original hand-drawn schematic in a 'bulk' format.
-The individual chips are made explicit in the transcript.
+The RAM and ROM chips in the original hand-drawn schematic in a 'stacked'
+format. The individual chips are made explicit in the transcript.
 
 All component designators have been preserved and all pin-assignments
 of components are the same as in the original schematic.
-Only exception: the pinouts of the resistor networks have not been arranged
-yet (but pin numbers are hidden, so it would not make a difference unless a PCB
+(Only exception: the pinouts of the resistor networks have not been arranged
+yet; but pin numbers are hidden, so it would not make a difference unless a PCB
 is made).
 
 Different busses have been color-coded:
@@ -63,7 +70,7 @@ Different busses have been color-coded:
   * Blue: Periphery IO lines from 81C55: `PA[0..7]`, `PB[0..1]`.
 
 For labels with a meaning across the schematic that are not part of
-a bus, global labels have been used, mostly because they stand out
+a bus, mostly global labels have been used, mostly because they stand out
 more nicely than simple labels.
 
 ## Designators
