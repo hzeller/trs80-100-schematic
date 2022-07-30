@@ -4,7 +4,7 @@ Schematic Transcript of TRS-80 Model 100
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This is a transcript of the original schematic found in the TRS-80 Model 100
-manual into a machine-readable and libre license format using KiCAD.
+manual into a machine-readable and libre license format using KiCAD (6.0).
 
 This transcript is based on various scans to minimize read errors
 
@@ -37,7 +37,8 @@ different versions for the same chip to accommodate the same pin-sequence found
 in the original schematic which were chosen to simplify the PCB layout (for
 instance, there are versions for 40H244 for M15, M21, M23, and M32).
 
-Some parts are slightly rearranged to improve readability.
+Some parts are slightly rearranged to improve readability and make areas less
+visually crowded.
 
 Some readability improvements have been done in the address demultiplexing
 section to more easily see the `AD[0..7]` bus being buffered to the AD-bus and
