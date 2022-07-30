@@ -10,6 +10,8 @@ This transcript is based on various scans to minimize read errors
 
   * https://tim.id.au/trs-80-model-100.pdf
   * https://archive.org/details/tandy_100_schematics/page/n11/mode/2up
+  * https://archive.org/details/trs-80-model-100-main-pcb-schematic-from-tech-ref-manual  (this is the highest quality, found it after finished the transcript,
+  but excellent as proof-read reference)
 
 The format is in KiCAD eeschema format; for convenience, a generated PDF
 has been included in this repository.
@@ -50,7 +52,7 @@ the `ENABLE` for the LCD. The `RDWR*` signal existed but was named `Ⓐ*` in
 the original schematic which was not a very useful name.
 
 Now, these signals are generated close to the 'bus buffer signal' section, the
-`RDRW` section is used as a named signal in the LCD input (which also makes the
+`RDWR` section is used as a named signal in the LCD input (which also makes the
 section near the LCD connector less crowded). As a result, the buffer
 section is also less crowded by using a block symbol as M20 instead of
 multiple separate buffer symbols (note, the `RESET_OUT` signal has been
