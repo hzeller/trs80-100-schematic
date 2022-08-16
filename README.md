@@ -103,6 +103,14 @@ in the original BOM. So for completeness, following designators do *not* exist:
   * C51, C68, C93, C95, C96
   * R69, R100, R117, R129, R130, R133, R143, R147, R148, R155, R163..R169
 
+### Fixes to the original schematic
+
+  * C37 is shown as 47n, while the BOM and PCB says 100n.
+  * The keyboard has a wrong assignment of the cursor keys; they are
+    in different rows in the key-matrix than they actually are. Fixed
+    in this transcript as result from actual measurement.
+  * Missing designators R33, R162 and C62 have been added.
+
 ## TODO
 
   * Thorough comb-through to make sure there are no mistakes and
