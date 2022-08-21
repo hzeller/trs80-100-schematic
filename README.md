@@ -110,6 +110,7 @@ in the original BOM. So for completeness, following designators do *not* exist:
     in different rows in the key-matrix than they actually are. Fixed
     in this transcript as result from actual measurement.
   * Missing designators R33, R162 and C62 have been added.
+  * Fixed SW1 (Originate/Answer) inconsistent lever position.
 
 ## TODO
 
