@@ -32,17 +32,21 @@ for all nets being connected correctly has yet to be done.
 
 ## Minimal layout deviation
 
-This transcript in KiCAD attempts to preserve the original layout as much
-as possible to easily navigate and compare between the original and the
+This transcript in KiCAD attempts to preserve the high-level original layout
+as much as possible to easily navigate and compare between the original and the
 transcript. This means as well that some schematic symbols exists in multiple
 different versions for the same chip to accommodate the same pin-sequence found
 in the original schematic which were chosen to simplify the PCB layout (for
 instance, there are versions for 40H244 for M15, M21, M23, and M32).
 
-Some parts are slightly rearranged to improve readability and make areas less
+Some parts have been rearranged to improve readability and make areas less
 visually crowded.
 
-Some readability improvements have been done in the address demultiplexing
+The reset circuit have been arranged in a way that the functionality is
+easier to read than in the original schematic (mostly making sure positive
+is up and GND is down, and voltage dividers are not 'around corners').
+
+Readability improvements have been done in the address demultiplexing
 section to more easily see the `AD[0..7]` bus being buffered to the AD-bus and
 latched to the lower half of the address bus.
 
