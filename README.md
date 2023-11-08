@@ -20,6 +20,9 @@ has been included in this repository.
 <img src="https://github.com/hzeller/trs80-100-schematic/raw/main/img/thumbnail.png">
 </a>
 
+Browse interactively
+<a href="https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fhzeller%2Ftrs80-100-schematic">with the excellent KiCanvas viewer in the browser</a>.
+
 ## Status
 
 The main-board schematic is complete (the LCD one has not started yet).
