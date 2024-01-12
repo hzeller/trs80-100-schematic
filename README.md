@@ -4,7 +4,7 @@ Schematic Transcript of TRS-80 Model 100
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This is a transcript of the original schematic found in the TRS-80 Model 100
-manual into a machine-readable and libre license format using KiCAD (6.0).
+manual into a machine-readable and libre license format using KiCAD (7.0).
 
 This transcript is based on various scans to minimize read errors
 
@@ -39,7 +39,7 @@ This transcript in KiCAD attempts to preserve the high-level original layout
 as much as possible to easily navigate and compare between the original and the
 transcript. This means as well that some schematic symbols exists in multiple
 different versions for the same chip to accommodate the same pin-sequence found
-in the original schematic which were chosen to simplify the PCB layout (for
+in the original schematic which were chosen to simplify the layout (for
 instance, there are versions for 40H244 for M15, M21, M23, and M32).
 
 Some parts have been rearranged to improve readability and make areas less
